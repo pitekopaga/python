@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Photos - DO NOT upload large files!
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+
+# Our photo folders
+brightwheel_photos/
+downloads_raw/
+photos_organized/
+thumbnails_backup/
+duplicates_backup/
+brightwheel_raw/
+brightwheel_final/
+brightwheel_correct_order/
+
+# Downloaded files
+extracted_photo_urls.txt
+brightwheel_urls.txt
+photo_urls.txt
+console_output.txt
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config (optional - you might want to keep this)
+# config.json
