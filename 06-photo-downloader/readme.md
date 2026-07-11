@@ -50,21 +50,13 @@ Multiple photos from the same day get letters: a, b, c, etc.
 
 ## Folder Structure
 your_folder/
-
-├── photo_organizer.py # Main program
-
-├── extract_urls.js # Browser helper
-
-├── config.json # Settings (auto-created)
-
-├── photos_organized/ # Final organized photos
-
-├── downloads_raw/ # Original downloads (backup)
-
-├── thumbnails_backup/ # Removed thumbnails
-
-└── duplicates_backup/ # Exact duplicates
-
+    photo_organizer.py     # Main program
+    extract_urls.js        # Browser helper
+    config.json            # Settings (auto-created)
+    photos_organized/      # Final organized photos
+    downloads_raw/         # Original downloads (backup)
+    thumbnails_backup/     # Removed thumbnails
+    duplicates_backup/     # Exact duplicates
 
 ## Troubleshooting
 * **"python not found"**: Install Python from [python.org](https://python.org).
