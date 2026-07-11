@@ -49,25 +49,6 @@ Choose a naming format in Settings → Option 2:
 Multiple photos from the same day get letters: a, b, c, etc.
 
 ## Folder Structure
-Copy this exact raw text below (including the blank lines and the backticks):
-
-text
-## Folder Structure
-your_folder/
-photo_organizer.py # Main program
-extract_urls.js # Browser helper
-config.json # Settings (auto-created)
-photos_organized/ # Final organized photos
-downloads_raw/ # Original downloads (backup)
-thumbnails_backup/ # Removed thumbnails
-duplicates_backup/ # Exact duplicates
-
-text
-If you paste that and it still doesn't work, try this alternative that uses indentation instead of code blocks:
-
-text
-## Folder Structure
-
     your_folder/
         photo_organizer.py     # Main program
         extract_urls.js        # Browser helper
@@ -76,7 +57,6 @@ text
         downloads_raw/         # Original downloads (backup)
         thumbnails_backup/     # Removed thumbnails
         duplicates_backup/     # Exact duplicates
-I hope one of these works for y
 
 ## Troubleshooting
 * **"python not found"**: Install Python from [python.org](https://python.org).
