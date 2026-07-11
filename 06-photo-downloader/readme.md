@@ -49,3 +49,30 @@ Choose a naming format in Settings → Option 2:
 Multiple photos from the same day get letters: a, b, c, etc.
 
 ## Folder Structure
+your_folder/
+├── photo_organizer.py # Main program
+├── extract_urls.js # Browser helper
+├── config.json # Settings (auto-created)
+├── photos_organized/ # Final organized photos
+├── downloads_raw/ # Original downloads (backup)
+├── thumbnails_backup/ # Removed thumbnails
+└── duplicates_backup/ # Exact duplicates
+
+## Troubleshooting
+* **"python not found"**: Install Python from [python.org](https://python.org).
+* **"requests not found"**: Run `pip install requests`.
+* **URLs not downloading**: Use the JavaScript method and ensure you are logged in.
+* **Wrong date order**: Settings → Option 3 → choose `newest_first` or `oldest_first`.
+
+## Tips
+* Load ALL photos before extracting URLs.
+* Assign dates for better organization.
+* Keep `downloads_raw/` as a backup.
+* Process large collections in batches (200-300 at a time).
+
+## Need Help?
+* Run the program → Option 2 for detailed JavaScript instructions.
+* Check `photos_organized/` for final results.
+* Original files remain in `downloads_raw/` as backup.
+
+Done! Your photos are now organized with clear, chronological names.
