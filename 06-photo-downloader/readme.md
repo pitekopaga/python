@@ -5,7 +5,7 @@ A Python tool for downloading and organizing photos from any website with automa
 ## Quick Start
 1. Install Python 3.8+ from python.org.
 2. Install the required package: `pip install requests`
-3. Download `photo_organizer.py` and `extract_urls.js` to the same folder.
+3. Download `[photo_organizer.py](https://github.com/pitekopaga/python/blob/main/06-photo-downloader/photo_organizer.py)` and `extract_urls.js` to the same folder.
 4. Run the program: `python photo_organizer.py`
 
 ## How to Use
