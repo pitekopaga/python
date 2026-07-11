@@ -3,9 +3,11 @@
 A Python tool for downloading and organizing photos from any website with automatic naming and duplicate removal.
 
 ## Quick Start
-1. Install Python 3.8+ from python.org.
+1. Install Python 3.8+ from [python.org](https://python.org).
 2. Install the required package: `pip install requests`
-3. Download `[photo_organizer.py](https://github.com/pitekopaga/python/blob/main/06-photo-downloader/photo_organizer.py)` and `extract_urls.js` to the same folder.
+3. Download the two main files to the same folder:
+   - [`photo_organizer.py`](https://github.com/pitekopaga/python/blob/main/06-photo-downloader/photo_organizer.py)
+   - [`extract_urls.js`](https://github.com/pitekopaga/python/blob/main/06-photo-downloader/extract_urls.js)
 4. Run the program: `python photo_organizer.py`
 
 ## How to Use
@@ -13,7 +15,7 @@ A Python tool for downloading and organizing photos from any website with automa
 1. Open your browser and go to the website with photos. Log in if needed.
 2. Load ALL photos (scroll, click "Load more").
 3. Press F12 → Console tab.
-4. Copy and paste the code from `extract_urls.js` and run `extractAllUrls()`.
+4. Copy and paste the code from [`extract_urls.js`](https://github.com/pitekopaga/python/blob/main/06-photo-downloader/extract_urls.js) and run `extractAllUrls()`.
 5. Save the downloaded `extracted_photo_urls.txt` file.
 
 ### Step 2: Download Photos
