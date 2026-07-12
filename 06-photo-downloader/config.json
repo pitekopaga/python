@@ -1,0 +1,11 @@
+{
+  "download_folder": "downloads_raw",
+  "organized_folder": "photos_organized",
+  "thumbnails_folder": "thumbnails_backup",
+  "duplicates_folder": "duplicates_backup",
+  "naming_convention": "YYMMDD",
+  "date_order": "oldest_first",
+  "min_file_size_kb": 100,
+  "download_delay": 0.2,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}

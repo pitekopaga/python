@@ -281,7 +281,10 @@ class PhotoOrganizer:
         for i, url in enumerate(urls):
             try:
                 # Download image
-                headers = {'User-Agent': self.config["user_agent"]}
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Referer': 'https://www.mybrightwheel.com/'
+                }
                 response = requests.get(url, headers=headers, timeout=30)
                 response.raise_for_status()
                 
